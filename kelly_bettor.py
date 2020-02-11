@@ -9,6 +9,7 @@ import random
 
 print("What odds are THEY giving you?")
 print("(4 = 4-to-1 odds in THEIR favor, 0.2 = 1-to-4 odds in YOUR favor)")
+print("(This is also how much you would multiply your money by, if you won the bet.)")
 unlikely_given_odds = 1 /(float(input("Enter: ")) + 1)
 print("How likely do YOU think the event is?")
 print("(0 to 100%, 50 = 50% chance)")
